@@ -1,6 +1,12 @@
 package com.clock.easonclock;
 /**
  * 成功正式启程。
+ * 
+ * @author Administrator
+ */
+/**
+ * 开启人生的第一桶金
+ * 
  * @author Administrator
  */
 import android.os.Bundle;
