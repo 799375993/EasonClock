@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/github" android:icon="@drawable/ic_launcher" android:showAsAction="always" android:title="SlidingMenu on GitHub" android:titleCondensed="githup" android:visible="true"></item>
+    <item android:id="@+id/about" android:title="关于" android:showAsAction="never" android:orderInCategory="1"></item>
+    <item android:id="@+id/licenses" android:title="标题" android:showAsAction="never" android:orderInCategory="2"></item>
+    <item android:id="@+id/contact" android:title="不知道" android:orderInCategory="3" android:showAsAction="never"></item>
+    
+
+</menu>

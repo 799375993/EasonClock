@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_names">
+        <item>常用</item>
+        <item>舆情监控</item>
+        <item>舆情分析</item>
+        <item>关键词分析</item>
+        <item>设置</item>
+        <item>基础设置</item>
+        <item>关键词管理</item>
+        <item>特证词管理</item>
+        <item>栏目管理</item>
+    </string-array>
+  
+  
+
+</resources>
