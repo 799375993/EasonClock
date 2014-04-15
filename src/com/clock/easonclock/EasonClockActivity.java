@@ -11,6 +11,8 @@ package com.clock.easonclock;
  */
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.zzwx.weimao.fragment.ColorFragment;
@@ -36,7 +38,12 @@ public class EasonClockActivity extends BaseActivity {
 		if (savedInstanceState != null)
 			mContent = getSupportFragmentManager().getFragment(savedInstanceState, "mContent");
 		if (mContent == null)
-			mContent = new ColorFragment(R.color.green);	
+			mContent = new ColorFragment(R.color.green);
+		/**
+		 * test
+		 */
+		Log.e("???", "?>?????");
+		Toast.makeText(getApplicationContext(), "test?", Toast.LENGTH_LONG).show();
 		
 		// set the Above View
 		setContentView(R.layout.content_frame);
