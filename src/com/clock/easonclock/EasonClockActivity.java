@@ -1,5 +1,8 @@
 package com.clock.easonclock;
-
+/**
+ * 成功正式启程。
+ * @author Administrator
+ */
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
