@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class FontManager {
 	public static void changeFonts(ViewGroup root, Activity act) {
 		Typeface tf = Typeface
-				.createFromAsset(act.getAssets(), "fonts/xxx.ttf");
+				.createFromAsset(act.getAssets(), "fonts/Infinity.ttf");
 		for (int i = 0; i < root.getChildCount(); i++) {
 			View v = root.getChildAt(i);
 			if (v instanceof TextView) {
