@@ -1,4 +1,4 @@
-package com.zzwx.weimao.fragment;
+package com.simpleheaven.fragment;
 
 import android.content.Context;
 import android.os.Bundle;

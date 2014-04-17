@@ -8,8 +8,8 @@ import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
-import com.zzwx.weimao.fragment.SampleListFragment;
-import com.zzwx.weimao.fragment.WeiBoHuaTi;
+import com.simpleheaven.fragment.SampleListFragment;
+import com.simpleheaven.fragment.WeiBoHuaTi;
 
 public class BaseActivity extends SlidingFragmentActivity {
 

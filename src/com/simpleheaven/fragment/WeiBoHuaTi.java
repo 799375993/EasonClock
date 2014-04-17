@@ -1,4 +1,4 @@
-package com.zzwx.weimao.fragment;
+package com.simpleheaven.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 
 import com.clock.easonclock.R;
-import com.zzwx.weimao.view.XListView;
-import com.zzwx.weimao.view.XListView.IXListViewListener;
+import com.simpleheaven.view.XListView;
+import com.simpleheaven.view.XListView.IXListViewListener;
 
 public class WeiBoHuaTi extends Fragment implements IXListViewListener {
 	

@@ -15,8 +15,8 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.zzwx.weimao.fragment.ColorFragment;
-import com.zzwx.weimao.fragment.ColorMenuFragment;
+import com.simpleheaven.fragment.ColorFragment;
+import com.simpleheaven.fragment.ColorMenuFragment;
 
 public class EasonClockActivity extends BaseActivity {
 	

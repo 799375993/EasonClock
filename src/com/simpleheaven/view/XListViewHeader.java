@@ -4,7 +4,7 @@
  * @author Maxwin
  * @description XListView's header
  */
-package com.zzwx.weimao.view;
+package com.simpleheaven.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
