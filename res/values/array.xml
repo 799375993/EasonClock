@@ -2,15 +2,12 @@
 <resources>
 
     <string-array name="menu_names">
-        <item>常用</item>
-        <item>舆情监控</item>
-        <item>舆情分析</item>
-        <item>关键词分析</item>
-        <item>设置</item>
-        <item>基础设置</item>
-        <item>关键词管理</item>
-        <item>特证词管理</item>
-        <item>栏目管理</item>
+        <item>首页</item>
+        <item>陈奕迅的经典歌词解析</item>
+        <item>Eason2014年演唱会</item>
+        <item>给Eason一个好评</item>
+        <item>意见反馈</item>
+        <item>退出</item>
     </string-array>
   
   
