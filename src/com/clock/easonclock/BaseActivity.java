@@ -1,5 +1,6 @@
 package com.clock.easonclock;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.ListFragment;
@@ -80,7 +81,8 @@ public class BaseActivity extends SlidingFragmentActivity {
 			
 		case R.id.github:
 //			showMenu();
-			showSecondaryMenu();
+//			showSecondaryMenu();
+			startActivity(new Intent(this, EasonClockActivity.class));
 //			showContent();
 			return true;
 		}

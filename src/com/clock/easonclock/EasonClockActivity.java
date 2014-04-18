@@ -17,10 +17,12 @@ import android.widget.Toast;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.simpleheaven.fragment.ColorFragment;
 import com.simpleheaven.fragment.ColorMenuFragment;
+import com.zzwx.weimao.fragment.Homefragment;
 
 public class EasonClockActivity extends BaseActivity {
 	
 	private Fragment mContent;
+	private Homefragment homefragment;
 	
 	public EasonClockActivity() {
 		super(R.string.app_name);
@@ -39,6 +41,7 @@ public class EasonClockActivity extends BaseActivity {
 			mContent = getSupportFragmentManager().getFragment(savedInstanceState, "mContent");
 		if (mContent == null)
 			mContent = new ColorFragment(R.color.green);
+		homefragment = new Homefragment();
 		/**
 		 * test
 		 */
@@ -49,7 +52,7 @@ public class EasonClockActivity extends BaseActivity {
 		setContentView(R.layout.content_frame);
 		getSupportFragmentManager()
 		.beginTransaction()
-		.replace(R.id.content_frame, mContent)
+		.replace(R.id.content_frame, homefragment)
 		.commit();
 		
 		// set the Behind View
