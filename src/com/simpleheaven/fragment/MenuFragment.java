@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.clock.easonclock.EasonClockActivity;
 import com.clock.easonclock.R;
 
-public class ColorMenuFragment extends ListFragment {
+public class MenuFragment extends ListFragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
