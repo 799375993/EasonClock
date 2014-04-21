@@ -42,16 +42,16 @@ public class ColorMenuFragment extends ListFragment {
 				tv_menu = (TextView) layout.findViewById(R.id.row_title);
 				img_menu = (ImageView) layout.findViewById(R.id.row_icon);
 				tv_menu.setText(colors[position]);
-				if(position==0){
-					img_menu.setVisibility(View.GONE);
-					layout.setBackgroundColor(android.R.color.darker_gray);
-//					isEnabled(0);
-				}
-				if(position==4){
-					img_menu.setVisibility(View.GONE);
-					layout.setBackgroundColor(android.R.color.darker_gray);
-//					isEnabled(4);
-				}
+//				if(position==0){
+//					img_menu.setVisibility(View.GONE);
+//					layout.setBackgroundColor(android.R.color.darker_gray);
+////					isEnabled(0);
+//				}
+//				if(position==4){
+//					img_menu.setVisibility(View.GONE);
+//					layout.setBackgroundColor(android.R.color.darker_gray);
+////					isEnabled(4);
+//				}
 				
 				
 				return layout;
@@ -77,12 +77,12 @@ public class ColorMenuFragment extends ListFragment {
 			
 			@Override
 			public boolean isEnabled(int position) {
-				if (position==0) {
-					return false;
-				}
-				if (position==4) {
-					return false;
-				}
+//				if (position==0) {
+//					return false;
+//				}
+//				if (position==4) {
+//					return false;
+//				}
 				
 				
 				return super.isEnabled(position);
