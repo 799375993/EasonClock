@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="4"
         android:gravity="center"
+        android:background="@drawable/bg"
         android:orientation="vertical" >
 
         <ImageView
@@ -29,12 +30,25 @@
         android:weightSum="3"
         android:orientation="vertical" >
 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+			android:ellipsize="marquee"
+			android:focusableInTouchMode="true"
+			android:focusable="true"
+			android:marqueeRepeatLimit="marquee_forever"
+            android:text="陈奕迅歌词显示" />
+
         <ListView
             android:id="@+id/lv_home_clocktime"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            >
+            android:layout_height="150dp" >
         </ListView>
+
     </LinearLayout>
 
 </LinearLayout>
