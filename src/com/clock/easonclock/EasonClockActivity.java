@@ -42,11 +42,6 @@ public class EasonClockActivity extends BaseActivity {
 		if (mContent == null)
 			mContent = new ColorFragment(R.color.green);
 		homefragment = new HomePageFragment();
-		/**
-		 * test
-		 */
-		Log.e("???", "?>?????");
-		Toast.makeText(getApplicationContext(), "test?", Toast.LENGTH_LONG).show();
 		
 		// set the Above View
 		setContentView(R.layout.content_frame);
